@@ -1,4 +1,4 @@
 ## To run:
 
-docker-compose build
-docker-compose run app sh -c ""
+docker-compose build </br>
+docker-compose run app sh -c "" </br>
