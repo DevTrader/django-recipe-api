@@ -7,4 +7,3 @@ class CalcTests(TestCase):
     def test_add_numbers(self):
         """It: should add two numbers"""
         self.assertEqual(add(5, 3), 8)
-        
