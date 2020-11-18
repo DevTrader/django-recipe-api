@@ -6,4 +6,4 @@ docker-compose run app sh -c "python manage.py runserver 0.0.0.0:8000" </br>
 
 ## To run tests:
 
-docker-compose run app sh -c "python manage.py test" </br>
+docker-compose run app sh -c "python manage.py test && flake8" </br>
